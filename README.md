@@ -1,6 +1,8 @@
 # AuroraFX
 AuroraFX is a customChrome.css modification for ZapsCoolPhotonTheme.
 
+![AuroraFX Screenshot](./img/firefox_QRk1FX3yvc.jpg)
+
 
 Description
 
