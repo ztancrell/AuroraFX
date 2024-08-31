@@ -31,9 +31,11 @@ Installation
 3. Place customChrome.css file in your Firefox profile folder
     - Typically located at C:\Users\<username>\AppData\Roaming\Mozilla\Firefox\Profiles\<profile_folder>
     - In your profile folder, edit the userChrome.css file, and put this at the bottom:
-        /* Your custom CSS files */
-        /* You'll need to create customChrome.css in this folder since it doesn't exist by default */
-        @import url(./customChrome.css);
+      ```
+      /* Your custom CSS files */
+      /* You'll need to create customChrome.css in this folder since it doesn't exist by default */
+      @import url(./customChrome.css);
+      ```
 4. Restart Firefox
 5. Enjoy!
 
