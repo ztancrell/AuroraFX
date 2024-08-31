@@ -1,0 +1,52 @@
+/* *********************************************************
+- Project: "Aurora" - Custom Firefox UI Enhancements *
+- Author: Zach Tancrell [https://github.com/ztancrell] *
+- Description: Hidden Titlebar & Button Fix *
+- Version: 1.0 *
+********************************************************* 
+- About:Config Flags
+- toolkit.legacyUserProfileCustomizations.stylesheets = true
+- svg.context-properties.content.enabled = true
+************************************************************ */
+
+/* Hide tab bar items when tabs are in titlebar */
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar > .toolbar-items {
+	opacity: 0;
+	pointer-events: none;
+	border-inline-end: none;
+}
+
+/* Hide tab bar when tabs are not in titlebar */
+#main-window:not([tabsintitlebar="true"]) #TabsToolbar {
+	visibility: collapse !important;
+}
+
+/* Create space for buttons */
+#nav-bar {
+	margin-right: 140px; /* adjust this value to create space for buttons */
+}
+
+/* Hide titlebar */
+#titlebar {
+	appearance: none !important;
+	height: 0px !important;
+	border: none !important;
+}
+
+/* Fix for main menu calling by Alt button */
+#titlebar > #toolbar-menubar {
+	visibility: collapse !important;
+}
+
+/* Move minimize/restore/close buttons to empty space */
+#TabsToolbar > .titlebar-buttonbox-container {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border: none !important;
+	box-shadow: none !important;
+	background-color: #2b2a33 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
