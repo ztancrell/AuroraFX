@@ -1,5 +1,5 @@
 # AuroraFX
-AuroraFX is a customChrome.css modification for ZapsCoolPhotonTheme.
+AuroraFX is a customChrome.css modification for [zapsCoolPhotonTheme](https://github.com/zapSNH/zapsCoolPhotonTheme).
 
 ![AuroraFX Screenshot](./img/6rqBiYcIgl.jpg)
 
@@ -11,7 +11,7 @@ AuroraFX is a customChrome.css modification for ZapsCoolPhotonTheme, streamlinin
 
 Features
 
-- Optimized for ZapsCoolPhotonTheme users
+- Optimized for [zapsCoolPhotonTheme](https://github.com/zapSNH/zapsCoolPhotonTheme) users
 - Reduced titlebar space for increased browsing area
 - Customizable (modify CSS to suit your preferences)
 
@@ -26,7 +26,7 @@ Requirements
 
 Installation
 
-1. Install ZapsCoolPhotonTheme from [here](https://github.com/zapSNH/zapsCoolPhotonTheme)
+1. Install [zapsCoolPhotonTheme](https://github.com/zapSNH/zapsCoolPhotonTheme)
 2. Clone or download this repository
 3. Place customChrome.css file in your Firefox profile folder
     - Typically located at C:\Users\<username>\AppData\Roaming\Mozilla\Firefox\Profiles\<profile_folder>
@@ -43,12 +43,12 @@ Installation
 Compatibility
 
 - Tested with Firefox Nightly 131.0a1 (2024-08-31) (64-bit)
-- Compatible with ZapsCoolPhotonTheme
+- Compatible with [zapsCoolPhotonTheme](https://github.com/zapSNH/zapsCoolPhotonTheme)
 
 
 Credits
 
-- ZapsNH for creating ZapsCoolPhotonTheme
+- ZapsNH for creating [zapsCoolPhotonTheme](https://github.com/zapSNH/zapsCoolPhotonTheme)
 - Mozilla for developing the Firefox browser
 
 
