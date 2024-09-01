@@ -15,13 +15,14 @@ Features
 - Reduced titlebar space for increased browsing area
 - Customizable (modify CSS to suit your preferences)
 
+Important About:Config Edits
+- ```toolkit.legacyUserProfileCustomizations.stylesheets``` **true**
+- ```svg.context-properties.content.enabled``` **true**
 
 Requirements
 
 - Firefox browser
 - ZapsCoolPhotonTheme installed
-- toolkit.legacyUserProfileCustomizations.stylesheets enabled (about:config)
-- svg.context-properties.content.enabled enabled (about:config)
 
 
 Installation
