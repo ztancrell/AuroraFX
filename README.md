@@ -48,7 +48,7 @@ Compatibility
 
 Credits
 
-- ZapsNH for creating [zapsCoolPhotonTheme](https://github.com/zapSNH/zapsCoolPhotonTheme)
+- zapSNH for creating [zapsCoolPhotonTheme](https://github.com/zapSNH/zapsCoolPhotonTheme)
 - Mozilla for developing the Firefox browser
 
 
