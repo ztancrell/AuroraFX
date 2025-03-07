@@ -21,11 +21,6 @@
 	visibility: collapse !important;
 }
 
-/* Create space for buttons */
-#nav-bar {
-	margin-right: 140px; /* adjust this value to create space for buttons */
-}
-
 /* Hide titlebar */
 #titlebar {
 	appearance: none !important;
@@ -49,4 +44,10 @@
 	background-color: #2b2a33 !important;
 	padding: 0 !important;
 	margin: 0 !important;
+	width: 140px; /* Adjust this value to fit the width of the buttons */
+}
+
+/* Adjust margin to create space for buttons */
+#nav-bar {
+	margin-right: 140px; /* Adjust this value to match the width of the buttons */
 }
