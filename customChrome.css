@@ -33,21 +33,12 @@
 	visibility: collapse !important;
 }
 
-/* Move minimize/restore/close buttons to empty space */
+/* OPTIONAL: If you want to hide window action buttons entirely, you can hide the container */
 #TabsToolbar > .titlebar-buttonbox-container {
-	display: block;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	border: none !important;
-	box-shadow: none !important;
-	background-color: #2b2a33 !important;
-	padding: 0 !important;
-	margin: 0 !important;
-	width: 140px; /* Adjust this value to fit the width of the buttons */
+	display: none !important;
 }
 
-/* Adjust margin to create space for buttons */
+/* Remove margin reserved for the buttons */
 #nav-bar {
-	margin-right: 140px; /* Adjust this value to match the width of the buttons */
+	margin-right: 0 !important;
 }
